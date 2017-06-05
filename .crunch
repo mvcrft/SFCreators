@@ -1,0 +1,24 @@
+{
+	"files": {
+		"less/agency.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/agency2.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"mixins.less",
+				"variables.less"
+			]
+		}
+	}
+}
