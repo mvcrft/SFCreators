@@ -391,6 +391,9 @@ ul {
 ul > li {
   padding: 25px 0;
 }
+ul.nopad > li {
+  padding: 1px 0 !important;
+}
 ul > li:nth-child(odd) {
   color: white;
 }
